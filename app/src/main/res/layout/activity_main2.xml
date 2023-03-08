@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="246dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="56dp"
+        android:text="Olá, Colaborador!"
+        android:textColor="#9A3CEB"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAgenda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lineHeight="100dp" />
+
+    <Button
+        android:id="@+id/buttonAgenda"
+        android:layout_width="320dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="476dp"
+        android:height="56dp"
+        android:background="@drawable/button_gradient_home"
+        android:elegantTextHeight="true"
+        android:text="Agenda"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.593"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonRanking"
+        android:layout_width="320dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="380dp"
+        android:height="56dp"
+        android:background="@drawable/button_gradient_home"
+        android:elegantTextHeight="true"
+        android:text="Ranking do time"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.593"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonContent"
+        android:layout_width="320dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="288dp"
+        android:height="56dp"
+        android:background="@drawable/button_gradient_home"
+        android:elegantTextHeight="true"
+        android:text="Meu conteúdo"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.593"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonArea"
+        android:layout_width="320dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="188dp"
+        android:height="56dp"
+        android:background="@drawable/button_gradient_home"
+        android:elegantTextHeight="true"
+        android:text="Sua área"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.593"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textBottom"
+        android:layout_width="246dp"
+        android:layout_height="50dp"
+        android:text="TRAVELLER COMPANY"
+        android:textColor="#9A3CEB"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonArea"
+        app:lineHeight="100dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
